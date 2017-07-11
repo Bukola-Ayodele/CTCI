@@ -173,7 +173,7 @@ public class Ch1
 
     //__________________________________________________________________________________________________//
 
-    //Input: "Let's take LeetCode contest"
+    //Input: "Let's take LeetCodeP.LeetCodeP contest"
     //Output: "s'teL ekat edoCteeL tsetnoc"
     public static String reverse (String s)
     {
@@ -270,10 +270,28 @@ public class Ch1
 
     public static void main(String[] args)
     {
+
+        SinglyLinkedList first= new SinglyLinkedList(2);
+        first.add(4);
+        first.add(3);
+
+
+        SinglyLinkedList second= new SinglyLinkedList(5);
+       // second.add(5);
+        second.add(6);
+        second.add(4);
+
+        first.printList();
+        System.out.println("");
+        second.printList();
+
+        System.out.println("");
+        second.addList(second,first).printList();
+
         //System.out.println(lengthOfLongestSubstring("bbbbb"));
 
-        int i=9/10;
-        System.out.println(i);
+        //int i=9/10;
+        //System.out.println(i);
 
 
         /*

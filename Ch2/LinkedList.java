@@ -152,8 +152,7 @@ public class LinkedList
         return true;
 
     }
-    //CH 2.4
 
-    //CH 2.5
+
 
 }
